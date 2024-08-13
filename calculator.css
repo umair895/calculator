@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.calculator{
+  border: 1px solid rgb(161, 154, 154);
+  width: 400px;
+  height: 600px;
+}
+
+.calculator h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+#display-area{
+  height: 50px;
+  width: 350px;
+  margin-top: 10px;
+  margin-left: 24px;
+  font-size: 30px;
+}
+
+.cal-buttons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn{
+  width: 80px;
+  height: 60px;
+  margin: 10px;
+}
+
+
